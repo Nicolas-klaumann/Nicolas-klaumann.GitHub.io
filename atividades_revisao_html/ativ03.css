@@ -1,0 +1,39 @@
+/* Estilos para a linha horizontal */
+hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilos para palavras formatadas */
+em {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.cor1 {
+    color: blue;
+}
+
+.cor2 {
+    color: green;
+}
+
+.cor3 {
+    color: red;
+}
+
+.cor4 {
+    color: purple;
+}
+
+.cor5 {
+    color: orange;
+}

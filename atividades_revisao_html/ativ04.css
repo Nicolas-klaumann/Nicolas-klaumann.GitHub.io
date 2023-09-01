@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+
+/* Estilos para a tabela */
+table {
+    border-collapse: collapse;
+    width: auto;
+    border: 1px solid #ccc;
+}
+
+th,td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}

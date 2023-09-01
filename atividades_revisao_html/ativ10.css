@@ -1,0 +1,36 @@
+/* Estilos para a "box" */
+.box {
+    border: 1px dashed red;
+    padding: 20px;
+    width: 550px;
+    margin: 50px auto;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+/* Estilos para o botão */
+.full-width {
+    width: 100%;
+}
+
+/* Estilos para a box de "Lembrar Senha" */
+.lembrar-senha {
+    display: flex;
+    margin-top: 10px;
+}
+
+.usuario{
+    display: flex;
+}

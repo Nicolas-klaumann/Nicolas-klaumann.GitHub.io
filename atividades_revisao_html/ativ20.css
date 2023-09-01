@@ -1,0 +1,168 @@
+h1 {
+    margin-left: 15px;
+    display: flex;
+}
+
+#campoBusca {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+/* Estilo para o logo à esquerda */
+#logo {
+    margin-left: 10px;
+}
+
+/* Estilo para o menu à direita */
+.menu {
+    margin-right: 10px;
+}
+
+#cabecalho {
+    display: flex;
+    margin-right: 10px;
+    padding-right: 70px;
+}
+
+.itemCabecalho {
+    padding: 10px;
+}
+
+
+/* Estilo para a tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Estilo para a linha preta */
+tr.black-line {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Ajuste para as células da linha preta */
+tr.black-line td {
+    border-top: none;
+    border-bottom: none;
+}
+
+/* Estilo para as caixas */
+.boxMenores {
+    height: 200px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-left: 40px;
+    width: 22%;
+}
+
+.boxMaiores{
+    height: 200px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-left: 40px;
+    width: 70%;
+}
+
+/* Margem entre as caixas */
+.box+.box {
+    margin-left: 10px;
+}
+
+.nivelCaixas{
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.TituloBoxMenores{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+.corTitilo {
+    background-color: grey;
+    color: #fff;
+  }
+  
+#email{
+    margin-top: 25px;
+    size: 10px;
+    width: 175px;
+}
+
+#senha {
+    margin-top: 10px;
+}
+
+#perdeu{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#singIn{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#sair{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.boxBolos{
+    padding-top: 20px;
+}
+
+#boxBolosA{
+    height: 250px;
+}
+
+#video{
+    padding-top: 25px;
+    width: 15px ;
+}
+
+iframe{
+    width: 250px;
+    height: 150px;
+}
+
+footer{
+    background-color: grey;
+    padding-top: 50px;
+    margin-top: 100px;
+}

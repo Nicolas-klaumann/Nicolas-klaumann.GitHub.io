@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+    
+}
+
+table{
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+th,td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
