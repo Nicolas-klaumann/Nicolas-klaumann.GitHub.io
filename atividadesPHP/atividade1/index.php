@@ -19,20 +19,20 @@
     </form>
 
     <?php
-    // Verifique se o formulário foi enviado
+    // verifica se o formulário foi enviado
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Obtenha os valores do formulário
+        // obtem os valores do formulário
         $valor1 = $_POST["valor1"];
         $valor2 = $_POST["valor2"];
         $valor3 = $_POST["valor3"];
 
-        // Calcule a soma dos valores
+        // calcula a soma dos valores
         $soma = $valor1 + $valor2 + $valor3;
 
-        // Defina a cor padrão como preta
+        // define a cor padrão como preta
         $corTexto = "black";
 
-        // Verifique as condições e atualize a cor do texto
+        // verifica as condições e autualiza a cor do texto
         if ($valor1 > 10) {
             $corTexto = "blue";
         }
@@ -43,7 +43,7 @@
             $corTexto = "red";
         }
 
-        // Imprima o resultado com a cor definida
+        // imprime o resultado com a cor definida
         echo "<p style='color: $corTexto;'>A soma dos valores é: $soma</p>";
     }
     ?>
